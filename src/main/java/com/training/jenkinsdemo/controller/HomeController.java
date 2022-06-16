@@ -10,6 +10,6 @@ public class HomeController {
 	
 	@GetMapping("/msg")
 	public String getMsg() {
-		return "Hello from spring boot!";
+		return "Hello";
 	}
 }
